@@ -9,12 +9,26 @@ This project focuses on developing a facial recognition system using Convolution
 
 The project involves multiple stages, including data loading, preprocessing, model training, and evaluation of its performance.
 
-### Dataset
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Dataset](#dataset)
+3. [Tools and Libraries Used](#tools-and-libraries-used)
+4. [Project Structure](#project-structure)
+5. [Steps to Run the Project](#steps-to-run-the-project)
+6. [Key Features](#key-features)
+   - [Model Architecture](#model-architecture)
+   - [Performance Evaluation](#performance-evaluation)
+7. [Project Questions](#project-questions)
+8. [Results and Observations](#results-and-observations)
+
+## Dataset
 - **Dataset Name:** ORL (Olivetti Face Dataset)
 - **Total Images:** 400 images (40 individuals, 10 images per individual)
 - **Data Shape:** Each image is 64x64 pixels, grayscale.
 
-### Tools and Libraries Used
+This dataset provides a structured and manageable number of images, making it suitable for experimenting with CNN models for face recognition tasks.
+
+## Tools and Libraries Used
 - **Languages:** Python
 - **Libraries:**
   - `NumPy`
@@ -46,13 +60,13 @@ To run the project on **Kaggle**, follow these steps:
    - The notebook includes visualizations of results (e.g., accuracy and loss graphs) using Matplotlib.
 
 ## Key Features
-- **Model Architecture:**
-  - The CNN model includes multiple convolutional layers, pooling layers, and fully connected layers.
-  - The model uses **ReLU** activation and **softmax** for classification across the 40 classes (one for each individual).
-  
-- **Performance Evaluation:**
-  - The training process includes accuracy and validation loss measurements over 10 epochs.
-  - Modifications in the pooling size (from (4,4) to (2,2)) are explored to improve the model's performance.
+### Model Architecture
+- The CNN model includes multiple convolutional layers, pooling layers, and fully connected layers.
+- The model uses **ReLU** activation and **softmax** for classification across the 40 classes (one for each individual).
+
+### Performance Evaluation
+- The training process includes accuracy and validation loss measurements over 10 epochs.
+- Modifications in the pooling size (from (4,4) to (2,2)) are explored to improve the model's performance.
 
 ## Project Questions
 The project also explores key questions about CNN model performance, such as:
