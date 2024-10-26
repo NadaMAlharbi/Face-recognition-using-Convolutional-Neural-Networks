@@ -2,7 +2,7 @@
 
 **Author:** Nada Mohammed Alharbi  
 **Project Type:** Academic Project for Artificial Neural Networks  
-**Development Environment:** Kaggle Notebooks
+
 
 ## Project Overview
 This project focuses on developing a facial recognition system using Convolutional Neural Networks (CNN). The model is trained on the ORL face dataset, also known as the Olivetti Face Dataset, which includes images of 40 individuals. Each individual has 10 images, resulting in a total of 400 images for training and testing.
