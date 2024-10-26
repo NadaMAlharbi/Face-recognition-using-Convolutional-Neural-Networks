@@ -1,7 +1,7 @@
 # Face Recognition using Convolutional Neural Networks (CNN)
 
 **Author:** Nada Mohammed Alharbi  
-**Project Type:** Academic Project for CCAI-321: Artificial Neural Networks  
+**Project Type:** Academic Project for Artificial Neural Networks  
 **Development Environment:** Kaggle Notebooks
 
 ## Project Overview
